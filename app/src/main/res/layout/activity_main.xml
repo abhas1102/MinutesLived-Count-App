@@ -7,6 +7,7 @@
     android:gravity="center_horizontal"
     android:orientation="vertical"
     android:background="@color/background"
+    android:padding="16dp"
     tools:context=".MainActivity">
 
     <TextView
@@ -16,6 +17,79 @@
         android:text="CALCULATE YOUR"
         android:textColor="@color/textColor"
         android:textSize="25sp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="AGE"
+        android:padding="10dp"
+        android:textColor="@color/ageTextColor"
+        android:background="@color/ageTextBackgroundColor"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="IN MINUTES"
+        android:textColor="@color/textColor"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:id="@+id/buttonDatePicker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/black"
+        android:backgroundTint="#FFFFFF"
+        android:text="Choose Date"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvSelectedBirthDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/textColor"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Selected Birth Date"
+        android:textColor="@color/grey"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/tvTextMinutesLived"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="14400"
+        android:textColor="@color/textColor"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="In minutes till date"
+        android:textColor="@color/grey"
+        android:textSize="15sp"
         android:textStyle="bold"
         />
 

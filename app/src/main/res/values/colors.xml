@@ -7,9 +7,12 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="ageTextColor">#FFFFFFFF</color>
     <color name="colorPrimary">#FFA938</color>
     <color name="colorPrimaryDark">#FFA938</color>
     <color name="colorAccent">#03DAC5</color>
     <color name="textColor">#844046</color>
     <color name="background">#FEF1E0</color>
+    <color name="ageTextBackgroundColor">#2fc2fe</color>
+    <color name="grey">#808080</color>
 </resources>
