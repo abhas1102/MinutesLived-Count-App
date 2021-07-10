@@ -53,3 +53,7 @@ class MainActivity : AppCompatActivity() {
         dpd.show()
     }
 }
+
+/* 1. Added datepicker and used SimpleDateFormat for formatting the date string into date format of Date class. Updated selected date into text view.
+2. Converted date choosen into minutes lived
+3. Restricted user to choose future dates using setMaxDate(). */
